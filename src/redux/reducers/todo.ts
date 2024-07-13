@@ -1,17 +1,16 @@
-import { Action, USER_TODO } from "../types";
-
+import {Action, USER_TODO} from '../types';
 
 const initialState = {
-    userTodo: []
-}
+  userTodo: [],
+};
 
 export default (state: any = initialState, action: Action) => {
-    switch (action.type) {
-        case USER_TODO:
-            return Object.assign({}, state, {
-                userTodo: action.payload,
-            });
-        default:
-            return state
-    }
-}
+  switch (action.type) {
+    case USER_TODO:
+      return Object.assign({}, state, {
+        userTodo: action.payload,
+      });
+    default:
+      return state;
+  }
+};

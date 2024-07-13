@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
-import { useSelector } from 'react-redux';
-import { State } from '../../redux/types';
+import {View, Text, FlatList, StyleSheet} from 'react-native';
+import {useSelector} from 'react-redux';
+import {State} from '../../redux/types';
 
 const TodoList: React.FC = () => {
   const userTodo = useSelector((state: State) => state.todo.userTodo);

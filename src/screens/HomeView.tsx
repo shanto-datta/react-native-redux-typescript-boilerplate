@@ -2,7 +2,6 @@ import {View, Text, SafeAreaView, Button} from 'react-native';
 import React, {useEffect} from 'react';
 import {HomeScreenProps} from './screen.types';
 
-
 import { useDispatch} from 'react-redux';
 import TodoList from '../components/TodoList/TodoList';
 import { fetchTodos } from '../api';
