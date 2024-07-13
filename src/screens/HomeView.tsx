@@ -32,7 +32,7 @@ const HomeView = ({navigation}: HomeScreenProps) => {
           onPress={() => {
             navigation.navigate('SettingsView', {
               name: 'Settings',
-              email: 'shanto.datta.cs@gmail.com',
+              email: 'settings@email.com',
             });
           }}>
           Settings
